@@ -239,7 +239,8 @@ p {
   cursor: pointer;
 }
 
-.new__headline:hover {
+.new__headline:hover, 
+.new__headline:focus {
   color: var(--primary-soft-orange);
 }
 
@@ -315,7 +316,8 @@ p {
   font-size: 1.6rem;
 }
 
-.menu__item:hover {
+.menu__item:hover,
+.menu__item:focus {
   color: var(--primary-soft-orange);
 }
 
@@ -418,7 +420,8 @@ p {
   cursor: pointer;
 }
 
-.menu__item--mobile:hover {
+.menu__item--mobile:hover,
+.menu__item--mobile:focus {
   color: var(--primary-soft-orange);
 }
 
